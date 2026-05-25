@@ -1,6 +1,6 @@
 name: merge-pipeline
 on:
-  pull_request:
+  push:
     branches:
       - main
 jobs:
